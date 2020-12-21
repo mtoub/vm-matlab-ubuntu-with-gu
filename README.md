@@ -40,8 +40,18 @@ Now you can use RDP to VM using the Remote Desktop application on windows. You w
 
 **N.B.** When you first connect to the Ubuntu Dekstop, the default username for the account will be *ubuntu*, you will be prompt to enter your password for installations and other admin tasks, make sure to change the default *ubuntu* username by the your own username.
 
+## Install MATLAB on Ubuntu
+To install MATLAB on Ubuntu, you should:
+1. Download unzip the installation file to any folder
 
-
+2. Open terminal and execute the command below:
+```
+sudo sh install
+```
+3. After the installation is completed, create a shortcut for MATLAB in the launcher:
+ ```
+ sudo apt install matlab-support
+ ```
 
 
 
